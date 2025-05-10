@@ -8,7 +8,7 @@ const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.inner
 camera.position.z = 4;
 //scene.background = new THREE.Color(0xf0f0f0); // Blanco
 const loaderFondo = new THREE.TextureLoader();
-loaderFondo.load('../images/fondo.jpg', function(texture) {
+loaderFondo.load('images/fondo.jpg', function(texture) {
     scene.background = texture;
 });
 

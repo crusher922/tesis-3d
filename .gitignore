@@ -1,0 +1,16 @@
+# node modules (nunca subas esta carpeta)
+node_modules/
+
+# configuración local de tu editor
+.idea/
+.vscode/
+
+# sistema operativo
+.DS_Store
+Thumbs.db
+
+# archivos temporales o de pruebas
+*.log
+*.tmp
+*.swp
+

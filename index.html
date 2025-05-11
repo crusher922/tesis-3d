@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Presentación de Tesis - Personajes 3D</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" crossorigin href="/tesis-3d/assets/index-6KitGdDT.css">
+</head>
+<body>
+<header>
+    <img src="/tesis-3d/assets/header-BwgQDV4d.jpg" alt="Escudo del Instituto">
+</header>
+
+<main>
+    <nav>
+        <button onclick="cargarModelo('/scripts/juanito.html')">Ver a Juanito</button>
+        <button onclick="cargarModelo('/scripts/marianita.html')">Ver a Marianita</button>
+    </nav>
+    <div class="content">
+        <iframe id="visor3d" src="" style="width: 100%; height: 100%; border: none;"></iframe>
+    </div>
+</main>
+
+<footer>
+    <p>Sígueme en:
+        <a href="https://instagram.com/tuusuario" target="_blank"><i class="fab fa-instagram"></i></a>
+        <!--<a href="https://github.com/tuusuario" target="_blank"><i class="fab fa-github"></i></a>-->
+        <a href="mailto:tu@email.com"><i class="fas fa-envelope"></i></a>
+    </p>
+</footer>
+
+<script>
+    function cargarModelo(url) {
+        document.getElementById('visor3d').src = url;
+    }
+</script>
+
+</body>
+</html>

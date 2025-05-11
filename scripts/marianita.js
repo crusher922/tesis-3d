@@ -1,6 +1,6 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three/build/three.module.js';
-import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/three/addons/loaders/GLTFLoader.js';
-import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/node-three-gltf@2.0.2/+esm';
+import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/camera-controls@2.10.1/+esm';
 
 
 // Preparar escena

@@ -28,6 +28,8 @@ main {
 }
 
 nav {
+    width: 180px;        /* Establece un ancho fijo */
+    height: 50px;        /* Establece una altura fija */
     border-radius: 12px;
     width: 200px;
     background-color: #f8efe8;
@@ -36,7 +38,7 @@ nav {
     justify-content: center; /* Centra horizontalmente */
     align-items: center;     /* Centra verticalmente */
     flex-direction: column;
-    gap: 1rem;
+    gap: 10rem;
     box-shadow: 2px 0 4px rgba(0,0,0,0.1);
 }
 

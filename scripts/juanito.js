@@ -39,7 +39,7 @@ controls.dampingFactor = 0.05;
 
 // Cargar modelo
 const loader = new GLTFLoader();
-loader.load( '../models/Juanito2Web.glb', function ( gltf ) {
+loader.load( '/models/Juanito2Web.glb', function ( gltf ) {
     const model = gltf.scene;
     model.scale.set(1, 1, 1);
 

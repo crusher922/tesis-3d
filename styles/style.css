@@ -10,7 +10,7 @@ body {
 
 header {
     width: 100%;
-    max-height: 150px; /* o el alto que tú desees */
+    max-height: 110px; /* o el alto que tú desees */
     overflow: hidden;
 }
 

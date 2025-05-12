@@ -165,4 +165,8 @@ footer {
     .footer-right img {
       height: 40px;
     }
+
+    .footer-left img {
+    width:35px; /* o prueba con 30px */
+  }
 }

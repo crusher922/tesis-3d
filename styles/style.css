@@ -28,8 +28,6 @@ main {
 }
 
 nav {
-    width: 180px;        /* Establece un ancho fijo */
-    height: 50px;        /* Establece una altura fija */
     border-radius: 12px;
     width: 200px;
     background-color: #f8efe8;
@@ -43,6 +41,8 @@ nav {
 }
 
 nav button {
+    width: 180px;        /* Establece un ancho fijo */
+    height: 50px;        /* Establece una altura fija */
     padding: 0.8rem;
     font-size: 1rem;
     cursor: pointer;

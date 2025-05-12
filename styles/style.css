@@ -29,7 +29,7 @@ main {
 
 nav {
     border-radius: 12px;
-    width: 200px;
+    width: device-width;
     background-color: #f8efe8;
     padding: 2rem 1rem;
     display: flex;
@@ -93,7 +93,7 @@ footer a:hover i {
     color: #00aaff; /* Color al pasar el mouse */
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   main {
     flex-direction: column;
   }
@@ -116,4 +116,4 @@ footer a:hover i {
   .content {
     padding: 1rem;
   }
-}
+} */

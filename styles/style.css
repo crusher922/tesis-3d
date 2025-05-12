@@ -40,13 +40,13 @@ nav button {
     font-size: 1rem;
     cursor: pointer;
     border: none;
-    background-color: #0066cc;
+    background-color: #5B3512;
     color: white;
     border-radius: 5px;
 }
 
 nav button:hover {
-    background-color: #004d99;
+    background-color: #351d07;
 }
 
 .content {

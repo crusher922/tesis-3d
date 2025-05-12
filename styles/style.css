@@ -127,3 +127,18 @@ footer {
   }
 } 
 */
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    margin-bottom: 1rem;
+  }
+}

@@ -92,7 +92,7 @@ footer a i {
 footer a:hover i {
     color: #00aaff; /* Color al pasar el mouse */
 }
-
+/*
 @media (max-width: 768px) {
   main {
     flex-direction: column;
@@ -117,3 +117,4 @@ footer a:hover i {
     padding: 1rem;
   }
 } 
+*/

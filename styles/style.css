@@ -131,9 +131,9 @@ footer {
 /* Estilos responsivos para pantallas pequeñas */
 @media (max-width: 768px) {
 
-  header {
+  header img {
     width: 100%;
-    max-height: 80px; /* más compacto aún en móviles */
+    height: auto; /* más compacto aún en móviles */
   }
 
   .footer-container {

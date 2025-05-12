@@ -1,6 +1,6 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.156.1';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { OrbitControls } from 'https://cdn.skypack.dev/three@0.156.1/examples/jsm/controls/OrbitControls.js';
+import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.156.1/examples/jsm/loaders/GLTFLoader.js'; 
 
 // Preparar escena
 const scene = new THREE.Scene();

@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    width: 75%;
+    width: 100%;
     height: 150px; /* o el alto que tú desees */
     overflow: hidden;
 }

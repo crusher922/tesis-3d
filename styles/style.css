@@ -154,7 +154,7 @@ footer {
     }
 
     .footer-left, .footer-center, .footer-right {
-      margin: 1.5rem;
+      margin: 1rem;
       flex: 1;
       text-align: center;
     }

@@ -22,13 +22,15 @@ header img {
 }
 
 main {
+    border-radius: 12px;
     flex: 1;
     display: flex;
 }
 
 nav {
+    border-radius: 12px;
     width: 200px;
-    background-color: #f4f4f4;
+    background-color: #f8efe8;
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;

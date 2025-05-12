@@ -41,7 +41,7 @@ nav {
 }
 
 nav button {
-    width: 180px;        /* Establece un ancho fijo */
+    width: device-width;        /* Establece un ancho fijo */
     height: 50px;        /* Establece una altura fija */
     padding: 0.8rem;
     font-size: 1rem;
